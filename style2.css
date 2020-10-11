@@ -1,0 +1,121 @@
+*{
+box-sizing:border-box;
+}
+html,body{
+margin:0;
+padding:0;
+line-height:1.0;
+font-size:20px;
+}
+body{
+  background: #FFF;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header   {
+  background: #222;
+  color: #FFF;
+  padding: 20px 40px;
+}
+#logo         {
+  display: inline-block;
+  color: #FFF;
+  text-decoration: none;
+  width: 55%;
+}
+#logo img    {
+  width: 80px;
+  border-radius: 4px;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+#logo span   {
+  display: inline-block;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+nav     {
+  width: 30%;
+  display: inline-block;
+  text-align: right;
+float: right;
+}
+nav ul   {
+  list-style: none;
+  margin: 0;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a    {
+  color: #FFF;
+  text-decoration: none;
+  display: block;
+  padding: 5px 5px;
+  border-radius: 1px;
+  transition: 0.3s ease all;
+}
+
+.pneumonia {
+  float: left;
+  width: 100%;
+  padding: 15px;
+}
+
+.pneumonia img{
+	border: 3px solid black;
+}
+
+.pneu img{
+	border: 3px solid black;
+}
+.education{
+padding : 20px;
+}
+.education img {
+border: 3px solid black;
+}
+
+.selectt {
+            color: #fff;
+            padding: 20px;
+            display: none;
+            margin-top: 30px;
+            width: 100%;
+            background: black ;
+        }
+
+        label {
+            margin-right: 20px;
+        }
+
+footer   {
+  background: #222;
+  color: #FFFFFF;
+  padding: 10px;
+  text-align: right;
+  width:100%;
+}
+
+#panelSkill, #flipSkill, #panelProj, #flipProj, #flipPub, #panelPub, #flipIntern, #panelIntern, #flipAchv, #panelAchv, #flipEdu, #panelEdu,
+#panelGoal, #panelEval, #panelSub, #panelContent, #panelExp, #flipGoal, #flipEval, #flipSub, #flipContent, #flipExp   {
+  padding: 5px;
+  text-align: left;
+  background-color: #086ec4;
+  border: solid 1px #c3c3c3;
+}
+
+#panelSkill, #panelProj, #panelPub, #panelIntern, #panelAchv, #panelEdu, #panelGoal, #panelEval, #panelSub, #panelContent, #panelExp  {
+  display: none;
+  background-color: #82bbeb;
+}
